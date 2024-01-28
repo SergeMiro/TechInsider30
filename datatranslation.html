@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tech Insider Bot</title>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Yeseva+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Merriweather:wght@300&family=Yeseva+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="darkTheme">
+	<header class="bg-myColor1 max-w-full container mx-auto">
+		<div class="flex justify-between p-mediumP text-black-400 rounded-b-2xl">
+			<a href="/index.html" class="inline-flex flex-wrap text-4xl my-auto text-white font-semibold" style="font-family: 'Abril Fatface', serif;">
+				TELEGRAM Solutions
+				<img src="/img/telegram.svg" alt="logo" class="pl-3 hover:scale-125 anim hidden md:hidden lg:block">
+			</a>
+			<div class=" flex flex-col my-auto md:flex-row space-x-0 md:space-x-5 space-y-1 md:space-y-0">
+				<a href="/index.html" class="bg-white dark:bg-slate-400	 text-center py-2 px-4 rounded-full hover:bg-blue-200 whitespace-nowrap w-auto flex flex-row cursor-pointer anim">	
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
+					</svg>
+						<span class="pl-1">Home</span>	
+				</a>
+				<a href="/steps.html" class="bg-white dark:bg-slate-400 text-center py-2 px-4 rounded-full hover:bg-blue-200  whitespace-nowrap w-auto flex flex-row cursor-pointer anim">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75" />
+					 </svg>
+					 <span class="pl-1">Steps</span>
+				</a>
+				<a href="/api.html" class="bg-white dark:bg-slate-400 text-center py-2 px-4 rounded-full hover:bg-blue-200  whitespace-nowrap w-auto flex flex-row cursor-pointer anim">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+					 </svg>
+					 <span class="pl-1">API's used</span>
+				</a>
+				<a class="bg-blue-200 dark:bg-slate-500 text-center py-2 px-4 rounded-full hover:bg-blue-200  whitespace-nowrap w-auto flex flex-row cursor-pointer anim">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+					 </svg>					 
+					 <span class="pl-1">Action</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<main class="container mx-auto pt-littleP md:pt-bigP font-yes">
+
+
+
+	<section class="flex nowrap miniPosts mx-2 my-3 items-center">
+		<div class="flex flex-nowrap border-r border-myColor3 pr-6">
+				<div>
+					<p class="text-8xl text-myColor2">12</p>
+				</div>
+				<div>
+					<p class="text-myColor2 text-xl text-start">posts</p>
+				</div>
+		</div>
+
+		<div class="flex wrap w-5/6 pl-6">
+			<div class="flex flex-col border border-myColor2 rounded-2xl p-littleP max-w-xs mr-1 mb-1">
+				<div class="flex flex-row flex-nowrap border-b border-gray-300 pb-1 justify-between">
+					<div class="w-11/12">
+						<p class="text-sm font-lora font-bold">Title de post</p>
+					</div>
+					<div class="w-auto justify-end">
+						<a href="#">
+							<svg class="w-5 cursor-pointer fill-myColor2 hover:fill-myColor1 anim" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
+								<path d="M10.0303 8.96967C9.73741 8.67678 9.26253 8.67678 8.96964 8.96967C8.67675 9.26256 8.67675 9.73744 8.96964 10.0303L10.9393 12L8.96966 13.9697C8.67677 14.2626 8.67677 14.7374 8.96966 15.0303C9.26255 15.3232 9.73743 15.3232 10.0303 15.0303L12 13.0607L13.9696 15.0303C14.2625 15.3232 14.7374 15.3232 15.0303 15.0303C15.3232 14.7374 15.3232 14.2625 15.0303 13.9697L13.0606 12L15.0303 10.0303C15.3232 9.73746 15.3232 9.26258 15.0303 8.96969C14.7374 8.6768 14.2625 8.6768 13.9696 8.96969L12 10.9394L10.0303 8.96967Z" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M12.0574 1.25H11.9426C9.63424 1.24999 7.82519 1.24998 6.41371 1.43975C4.96897 1.63399 3.82895 2.03933 2.93414 2.93414C2.03933 3.82895 1.63399 4.96897 1.43975 6.41371C1.24998 7.82519 1.24999 9.63422 1.25 11.9426V12.0574C1.24999 14.3658 1.24998 16.1748 1.43975 17.5863C1.63399 19.031 2.03933 20.1711 2.93414 21.0659C3.82895 21.9607 4.96897 22.366 6.41371 22.5603C7.82519 22.75 9.63423 22.75 11.9426 22.75H12.0574C14.3658 22.75 16.1748 22.75 17.5863 22.5603C19.031 22.366 20.1711 21.9607 21.0659 21.0659C21.9607 20.1711 22.366 19.031 22.5603 17.5863C22.75 16.1748 22.75 14.3658 22.75 12.0574V11.9426C22.75 9.63423 22.75 7.82519 22.5603 6.41371C22.366 4.96897 21.9607 3.82895 21.0659 2.93414C20.1711 2.03933 19.031 1.63399 17.5863 1.43975C16.1748 1.24998 14.3658 1.24999 12.0574 1.25ZM3.9948 3.9948C4.56445 3.42514 5.33517 3.09825 6.61358 2.92637C7.91356 2.75159 9.62177 2.75 12 2.75C14.3782 2.75 16.0864 2.75159 17.3864 2.92637C18.6648 3.09825 19.4355 3.42514 20.0052 3.9948C20.5749 4.56445 20.9018 5.33517 21.0736 6.61358C21.2484 7.91356 21.25 9.62177 21.25 12C21.25 14.3782 21.2484 16.0864 21.0736 17.3864C20.9018 18.6648 20.5749 19.4355 20.0052 20.0052C19.4355 20.5749 18.6648 20.9018 17.3864 21.0736C16.0864 21.2484 14.3782 21.25 12 21.25C9.62177 21.25 7.91356 21.2484 6.61358 21.0736C5.33517 20.9018 4.56445 20.5749 3.9948 20.0052C3.42514 19.4355 3.09825 18.6648 2.92637 17.3864C2.75159 16.0864 2.75 14.3782 2.75 12C2.75 9.62177 2.75159 7.91356 2.92637 6.61358C3.09825 5.33517 3.42514 4.56445 3.9948 3.9948Z" />
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="pt-1">
+					<p class="text-xs font-meri">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore ex nostrum beatae?</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section>
+		<div class="flex flex-nowrap items-center bg-blue-200 px-2 py-3 mx-2 md:px-5 md:py-5 lg:px-6 lg:py-6 mb-1 rounded-xl drop-shadow-lg">
+			<span class="text-3xl md:text-4xl lg:text-4xl inline-block bg-myColor1 text-start text-white rounded-b-full px-4 py-3 md:p-5 lg:p-6 shadow-lg shadow-white">2</span>
+			<div class="flex flex-wrap flex-grow items-center">
+				<p class="text-3xl md:text-4xl lg:text-4xl text-myColor2 bold py-auto ml-3 md:ml-5">Data translation</p>
+				<img class="w-14 md:w-16 mx-2 md:mx-4 hidden md:block" src="/img/datatranslate.svg" alt="Data Translate Icon">
+			</div>
+			<div class="flex-shrink-0">
+				<button id="startButton-translate" class="text-xl md:text-2xl py-2 px-7 mt-1 border-2 border-myColor2  bg-white hover:bg-myColor2 text-myColor2 hover:text-white font-semibold rounded-3xl anim">start</button>
+				<div id="nextButton" class="hidden inline-flex items-center">
+					<a href="/insertingdata.html">
+						<span class="text-xl md:text-2xl mr-1 md:mr-2 text-myColor2 border-myColor2 border-b-0 hover:border-b-2 cursor-pointer anim">next step</span>
+					</a>
+					<a href="/insertingdata.html" class="text-lg text-myColor2 py-auto">
+						 <img src="/img/next.svg" class="w-12 md:w-14 py-2 px-2 border border-transparent hover:border-myColor2 hover:bg-white font-semibold rounded-full anim" alt="next icon">
+					</a>
+			  </div>
+		  </div>
+			<div class="py-auto px-auto">
+				<div class="loading-translate mr-4 md:mr-6 hidden anim" id="loadingAnimation-translate">
+					<div class="loading__square"></div>
+					<div class="loading__square"></div>
+					<div class="loading__square"></div>
+					<div class="loading__square"></div>
+					<div class="loading__square"></div>
+					<div class="loading__square"></div>
+					<div class="loading__square"></div>
+					<div class="loading__square"></div>
+				</div>
+			</div>
+		</div>
+	  		
+		<div class="mx-auto p-littleP font-meri" id="result-translate">
+			<!-- Индикатор загрузки или сообщение о загрузке -->
+		</div>
+	</section>
+
+	</main>
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script>
+		const axiosConfig = {
+			headers: {
+				'X-RapidAPI-Key': '530e8178dfmsh704a7c63c08f8d1p164fddjsn47831134d88f',
+				'X-RapidAPI-Host': 'telegram-channel.p.rapidapi.com',
+			},
+		};
+
+		const postsState = { posts: [] }; // Инициализация состояния для хранения постов
+
+		// Функция для фильтрации постов и возврата только нужных типов
+		const filterPostsByType = (posts, type) => {
+			return posts.filter((post) => post.type === type);
+		};
+
+		const fetchTopPostsFromChannel = async (channel) => {
+			try {
+				const response = await axios.get(
+					'https://telegram-channel.p.rapidapi.com/channel/message',
+					{
+						params: {
+							channel: channel,
+							limit: '4',
+						},
+						...axiosConfig,
+					}
+				);
+				return response.data;
+			} catch (error) {
+				console.error(`Произошла ошибка при получении данных для канала ${channel}:`, error);
+				console.log(error.response.data); // Выведите подробности об ошибке из ответа сервера
+				return null;
+		  }
+		};
+
+		 const displayResult = (result) => {
+			const resultDiv = document.getElementById('result');
+			resultDiv.innerHTML = ''; // Очистка предыдущего контента
+	  
+			if (result && result.length > 0) {
+				 const rowContainer = document.createElement('div');
+				 rowContainer.classList.add('grid', 'gap-2', 'lg:grid-cols-3', 'md:grid-cols-2', 'sm:grid-cols-1');
+	  
+				 result.forEach((post) => {
+					  const postContainer = document.createElement('div');
+					  postContainer.classList.add('w-full', 'border-2', 'border-myColor2', 'rounded-xl', 'overflow-hidden');
+	  
+					  if (post.photo && post.photo.url) {
+							const photoElement = document.createElement('img');
+							photoElement.src = post.photo.url;
+							photoElement.alt = 'Post Photo';
+							photoElement.classList.add('w-full', 'h-72', 'object-cover');
+							postContainer.appendChild(photoElement);
+					  }
+	  
+					  if (post.video && post.video.url) {
+							const videoElement = document.createElement('video');
+							videoElement.src = post.video.url;
+							videoElement.controls = true;
+							videoElement.classList.add('w-full', 'h-72', 'object-cover');
+							postContainer.appendChild(videoElement);
+					  }
+	  
+					  if (post.text) {
+							const textElement = document.createElement('p');
+							textElement.textContent = post.text;
+							textElement.classList.add('post-text', 'p-littleP');
+							postContainer.appendChild(textElement);
+					  }
+	  
+					  rowContainer.appendChild(postContainer);
+				 });
+	  
+				 resultDiv.appendChild(rowContainer);
+			} else {
+				 resultDiv.textContent = 'Ошибка при получении данных';
+			}
+	  };
+	  
+	
+
+	  const fetchTopPostsWithMostViews = async (channels) => {
+		 try {
+			const allPosts = [];
+			for (const channel of channels) {
+			  const response = await fetchTopPostsFromChannel(channel);
+			  if (response) {
+				 allPosts.push(...response);
+			  }
+			  // Устанавливаем интервал в 1 секунду между запросами
+			  await new Promise((resolve) => setTimeout(resolve, 1000));
+			}
+	
+			// Сортировка постов по убыванию просмотров (views)
+			allPosts.sort((a, b) => b.views - a.views);
+	
+			console.log('Посты с наибольшим количеством просмотров из всех каналов:');
+			console.log(allPosts);
+	
+			return allPosts;
+		 } catch (error) {
+			console.error('Произошла ошибка при получении данных:', error);
+			return null;
+		 }
+	  };
+	
+
+
+
+	  document.addEventListener('DOMContentLoaded', () => {
+		const startButtonTranslate = document.getElementById('startButton-translate');
+		const loadingAnimation = document.querySelector('.loading-translate');
+		const resultTranslateContainer = document.getElementById('result-translate');
+		const nextButton = document.getElementById('nextButton') 
+
+		startButtonTranslate.addEventListener('click', async () => {
+			 startButtonTranslate.style.display = 'none';
+			 loadingAnimation.style.display = 'block';
+			 resultTranslateContainer.style.display = 'none';
+	 
+			 const channelsToFetch = ['mir_programmer', 'ptichka_news', 'technology_novosti'];
+			 const result = await fetchTopPostsWithMostViews(channelsToFetch);
+			 const translatedResult = await translatePosts(result);
+	 
+			 resultTranslateContainer.innerHTML = ''; // Очищаем содержимое блока result-translate
+	 
+			 translatedResult.forEach((post, index) => {
+				  const postContainer = document.createElement('div');
+				  postContainer.classList.add('w-full', 'border-2', 'border-myColor2', 'rounded-xl', 'overflow-hidden');
+	 
+				  if (post.photo && post.photo.url) {
+						const photoElement = document.createElement('img');
+						photoElement.src = post.photo.url;
+						photoElement.alt = 'Post Photo';
+						photoElement.classList.add('w-full', 'h-72', 'object-cover');
+						postContainer.appendChild(photoElement);
+				  }
+	 
+				  if (post.video && post.video.url) {
+						const videoElement = document.createElement('video');
+						videoElement.src = post.video.url;
+						videoElement.controls = true;
+						videoElement.classList.add('w-full', 'h-72', 'object-cover');
+						postContainer.appendChild(videoElement);
+				  }
+	 
+				  const translatedTextElement = document.createElement('p');
+				  translatedTextElement.textContent = post.translatedText;
+				  translatedTextElement.classList.add('post-text', 'p-littleP');
+				  postContainer.appendChild(translatedTextElement);
+	 
+				  resultTranslateContainer.appendChild(postContainer);
+			 });
+	 
+			 loadingAnimation.style.display = 'none';
+			 resultTranslateContainer.style.display = 'block';
+			 startButtonTranslate.style.display = 'block';
+			 nextButton.style.display = 'inline-flex';
+		});
+  });
+  
+          const axiosConfig = {
+            headers: {
+                'X-RapidAPI-Key': '530e8178dfmsh704a7c63c08f8d1p164fddjsn47831134d88f',
+                'X-RapidAPI-Host': 'translated-mymemory---translation-memory.p.rapidapi.com',
+            },
+        };
+
+        const translateText = async (text) => {
+            try {
+                const response = await axios.get(
+                    'https://translated-mymemory---translation-memory.p.rapidapi.com/get', {
+                        params: {
+                            langpair: 'ru|en', // Меняем направление перевода на русский -> английский
+                            q: text,
+                            mt: '1',
+                            onlyprivate: '0',
+                            de: 'a@b.c',
+                        },
+                        ...axiosConfig,
+                    }
+                );
+                return response.data.responseData.translatedText;
+            } catch (error) {
+                console.error('Ошибка во время перевода:', error);
+                return null;
+            }
+        };
+
+        const translateAndDisplayText = async () => {
+            const originalText = 'Привет, мир!'; // Ваш текст на русском
+            const translatedText = await translateText(originalText);
+
+            const resultContainer = document.getElementById('translatedResult');
+            resultContainer.innerHTML = '';
+
+            if (translatedText) {
+                const translatedTextElement = document.createElement('p');
+                translatedTextElement.textContent = translatedText;
+                translatedTextElement.classList.add('post-text', 'p-littleP');
+                resultContainer.appendChild(translatedTextElement);
+            } else {
+                resultContainer.textContent = 'Ошибка перевода.';
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const startButtonTranslate = document.getElementById('startButton-translate');
+            startButtonTranslate.addEventListener('click', translateAndDisplayText);
+        });
+  
+	  
+	</script>
+	
+	</body>
+</html>
