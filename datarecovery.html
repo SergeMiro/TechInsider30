@@ -164,11 +164,19 @@
 							videoElement.classList.add('w-full', 'h-72', 'object-cover');
 							postContainer.appendChild(videoElement);
 					  }
-	  
-					  if (post.text) {
+					  if (post.html) {
+							const htmlElement = document.createElement('div');
+							htmlElement.innerHTML = post.html;
+							htmlElement.classList.add('post-text', 'p-littleP', 'text-sm');
+							htmlElement.querySelectorAll('a').forEach(link => {
+							link.classList.add('text-blue-500');
+						});
+						postContainer.appendChild(htmlElement);
+					  }
+					  if (post.author) {
 							const textElement = document.createElement('p');
-							textElement.textContent = post.text;
-							textElement.classList.add('post-text', 'p-littleP', 'text-sm');
+							textElement.textContent = post.author;
+							textElement.classList.add('post-text', 'p-littleP', 'text-sm', 'text-right', 'bg-violet-700', 'text-white');
 							postContainer.appendChild(textElement);
 					  }
 	  
